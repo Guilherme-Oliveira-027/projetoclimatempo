@@ -11,7 +11,7 @@
     <header>
         <h1>Meu Clima</h1>
     </header>
-    <main>
+    <main>                      
         <section id="weather-info">
             <h2>Informações do Clima</h2>
             <p id="location">Localização</p>
@@ -20,6 +20,22 @@
             <img id="icon" src="" alt="Ícone do clima">
         </section>
     </main>
+    <button id="updateButton">Atualizar Clima</button>
+    background-color: lightblue; /* Change background color to light blue */
+    alert("Weather data updated: " + JSON.stringify(data));
+    console.log("Weather data updated:", data);
+    document.body.style.backgroundColor = backgroundColor;
+    export { updateWeather, weatherData };
+    <getWeatherData()>
+        <a href="https://api.openweathermap.org/data/2.5/weather?q=London&appid=YOUR_API_KEY" target="_blank">Obter dados do clima</a>
+    </getWeatherData()> 
+    <const button = document.getElementById("updateButton");>
+    <const backgroundColor = "lightblue";>
+        <data>
+            <locationElement = document.getElementById("location");>
+            <temperatureElement = document.getElementById("temperature");>
+            <descriptionElement = document.getElementById("description");>
+            <iconElement = document.getElementById("icon");>
     <script src="script.js"></script>
 </body>
 
